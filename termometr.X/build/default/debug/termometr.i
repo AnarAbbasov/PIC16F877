@@ -2019,7 +2019,7 @@ char str01[7]={'\13'};
 
 
 void main(void) {
-
+  int i;
   initialiseUART();
 
 
@@ -2029,14 +2029,12 @@ void main(void) {
 initTermoDatchik();
 int index_of_string=0;
 sprintf(str01,"%.2f V",measure ());
-_delay((unsigned long)((5000)*(4000000/4000.0)));
+
 while(index_of_string<=7)
 {
 sendUART((char)str01[index_of_string]);
 index_of_string++;
 }
-
-  TXEN = 0;
 # 36 "termometr.c"
     return ;
 }

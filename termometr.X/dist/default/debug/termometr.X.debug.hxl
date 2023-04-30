@@ -1,30 +1,30 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- dist/default/production\termometr.X.production.hex
- -Odist/default/production\termometr.X.production.hex
- -logfile=dist/default/production\termometr.X.production.hxl
+ dist/default/debug\termometr.X.debug.hex
+ -Odist/default/debug\termometr.X.debug.hex
+ -logfile=dist/default/debug\termometr.X.debug.hxl
  -addressing=2
 
 ### Memory Usage ###
  Intel Hex-file ranges:
-  0h - 5h		(dist/default/production\termometr.X.production.hex)
-  8h - FFFh		(dist/default/production\termometr.X.production.hex)
-  1006h - 2139h		(dist/default/production\termometr.X.production.hex)
-  213Ch - 2FFFh		(dist/default/production\termometr.X.production.hex)
-  399Eh - 4007h		(dist/default/production\termometr.X.production.hex)
-  400Eh - 400Fh		(dist/default/production\termometr.X.production.hex)
+  0h - 5h		(dist/default/debug\termometr.X.debug.hex)
+  8h - FFFh		(dist/default/debug\termometr.X.debug.hex)
+  1006h - 2139h		(dist/default/debug\termometr.X.debug.hex)
+  213Ch - 2FFFh		(dist/default/debug\termometr.X.debug.hex)
+  39D8h - 4007h		(dist/default/debug\termometr.X.debug.hex)
+  400Eh - 400Fh		(dist/default/debug\termometr.X.debug.hex)
  Unused ranges:
   6h - 7h
   1000h - 1005h
   213Ah - 213Bh
-  3000h - 399Dh
+  3000h - 39D7h
   4008h - 400Dh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Intel Hex-file         (dist/default/production\termometr.X.production.hex)
+  H1 = Intel Hex-file         (dist/default/debug\termometr.X.debug.hex)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
@@ -797,11 +797,7 @@
 00002FE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00002FF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
-00003990 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
-000039A0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000039B0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000039C0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000039D0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+000039D0 | -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1
 000039E0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 000039F0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00003A00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1

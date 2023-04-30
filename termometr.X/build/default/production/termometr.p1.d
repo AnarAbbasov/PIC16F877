@@ -1,2 +1,3 @@
 build/default/production/termometr.p1:  \
-termometr.c 
+termometr.c  \
+termometer.h 
